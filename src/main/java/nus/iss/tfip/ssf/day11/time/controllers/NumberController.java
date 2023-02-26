@@ -1,10 +1,14 @@
 package nus.iss.tfip.ssf.day11.time.controllers;
 
-import java.util.security.SecureRandom;
+import java.security.SecureRandom;
+import java.util.Random;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
